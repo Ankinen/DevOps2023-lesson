@@ -1,3 +1,4 @@
+// Student form
 import React, { useState } from "react";
 
 export const StudentForm = ({ original, onSubmit }) => {
