@@ -8,6 +8,9 @@ on:
     
 jobs:
   build:
-    runs-on: [self-hosted, Windows, X64, dev-runner]
+    runs-on: ubuntu-latest
     steps:
-    - uses: tomsun28/issues-translate-action@v2.7
+    - uses: usthe/issues-translate-action@v2.7
+      with:
+        IS_MODIFY_TITLE: false
+        CUSTOM_BOT_NOTE: The bot detected the issue body's language is not English, and translated it automatically. 👯👭🏻🧑‍🤝‍🧑👫🧑🏿‍🤝‍🧑🏻👩🏾‍🤝‍👨🏿👬🏿
